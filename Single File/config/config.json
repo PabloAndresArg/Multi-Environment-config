@@ -1,9 +1,14 @@
 {
-    "_envs": ["local", "dev", "prod", "test"],
+    "_envs": [
+        "local",
+        "dev",
+        "prod",
+        "test"
+    ],
     "apiHost": {
         "local": "https://localhost:8080",
-        "dev":  "https://dev.api.example.com",
-        "prod":  "https://api.example.com",
+        "dev": "https://dev.api.example.com",
+        "prod": "https://api.example.com",
         "test": "solo esta variable"
     },
     "mongoUri": {
@@ -12,9 +17,11 @@
         "prod": "mongodb://mongo.example.com:27017/app",
         "test": "tiene que existir en todas las variables"
     },
-    "logLevel": {
+    "primerNivel": {
         "default": "info",
         "local": "debug",
-        "test": "solo esta variable"
+        "test": {
+            "subLevel": "solo esta variable"
+        }
     }
 }
