@@ -1,0 +1,23 @@
+{
+  "name": "multi-environment-config",
+  "version": "1.0.0",
+  "description": "Multi enviroments config for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloAndresArg/Multi-Environment-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloAndresArg/Multi-Environment-config/issues"
+  },
+  "homepage": "https://github.com/PabloAndresArg/Multi-Environment-config#readme",
+  "dependencies": {
+    "config-js": "^1.1.15"
+  }
+}

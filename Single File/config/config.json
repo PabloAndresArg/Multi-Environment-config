@@ -1,0 +1,20 @@
+{
+    "_envs": ["local", "dev", "prod", "test"],
+    "apiHost": {
+        "local": "https://localhost:8080",
+        "dev":  "https://dev.api.example.com",
+        "prod":  "https://api.example.com",
+        "test": "solo esta variable"
+    },
+    "mongoUri": {
+        "local": "mongodb://localhost:27020/app",
+        "dev": "mongodb://dev.mongo.example.com:27017/app",
+        "prod": "mongodb://mongo.example.com:27017/app",
+        "test": "tiene que existir en todas las variables"
+    },
+    "logLevel": {
+        "default": "info",
+        "local": "debug",
+        "test": "solo esta variable"
+    }
+}
